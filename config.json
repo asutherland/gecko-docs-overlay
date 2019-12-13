@@ -1,0 +1,17 @@
+{
+  "mozsearch_path": "/home/ubuntu/mozsearch",
+
+  "default_tree": "mozilla-central",
+
+  "trees": {
+    "mozilla-central": {
+      "index_path": "/home/ubuntu/index/mozilla-central",
+      "files_path": "/home/ubuntu/index/mozilla-central/gecko-docs-overlay/docs",
+      "git_path": "/home/ubuntu/index/mozilla-central/gecko-docs-overlay",
+      "github_repo": "https://github.com/asutherland/gecko-docs-overlay",
+      "objdir_path": "/home/ubuntu/index/mozilla-central/objdir",
+      "codesearch_path": "/home/ubuntu/index/mozilla-central/livegrep.idx",
+      "codesearch_port": 8082
+    }
+  }
+}
