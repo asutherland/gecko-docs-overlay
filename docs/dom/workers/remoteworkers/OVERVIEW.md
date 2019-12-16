@@ -1,5 +1,18 @@
 ## Classes
 
+```searchfox-graph-v1
+{
+  "mode": "paths-between",
+  "identifiers":
+    ["RemoteWorkerChild::RecvExecOp",
+     "RemoteWorkerChild::RecvExecServiceWorkerOp",
+     "RemoteWorkerChild::MaybeStartOp",
+     "RemoteWorkerChild::SharedWorkerOp::MaybeStart",
+     "RemoteWorkerChild::SharedWorkerOp::Exec",
+     "ServiceWorkerOp::MaybeStart"]
+}
+```
+
 - `RemoteWorkerController`: `PBackground` instance created by static
   RemoteWorkerController::Create that builds on `RemoteWorkerManager`.  Interface
   to control the remote worker as well as receive events via the

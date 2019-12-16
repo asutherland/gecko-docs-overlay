@@ -1,5 +1,23 @@
 ## Key Classes
 
+```searchfox-graph-v1
+{
+  "mode": "paths-between",
+  "identifiers":
+    [
+      "SharedWorker::Constructor",
+      "SendPSharedWorkerConstructor",
+      "RecvPSharedWorkerConstructor",
+      "SharedWorkerParent::Initialize",
+      "SharedWorkerService::GetOrCreate",
+      "SharedWorkerService::GetOrCreateWorkerManager",
+      "GetOrCreateWorkerManagerRunnable",
+      "SharedWorkerService::GetOrCreateWorkerManagerOnMainThread",
+      "SharedWOrkerManager::Create"
+    ]
+}
+```
+
 - `SharedWorker`: DOM binding.  Holds a `SharedWorkerChild`.  Must exist on the main
   thread because we only allow top-level windows to create SharedWorkers.
 - `SharedWorkerChild`: Held by `SharedWorker` bindings to remotely control

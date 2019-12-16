@@ -5,6 +5,18 @@
 
 ## How a navigation request is intercepted and mapped to a serviceworker.
 
+```searchfox-graph-v1
+{
+  "mode": "paths-between",
+  "identifiers":
+    ["nsHttpChannel::Connect",
+     "HttpBaseChannel::ShouldIntercept",
+     "ServiceWorkerInterceptController::ShouldPrepareForIntercept",
+     "ServiceWorkerManager::IsAvailable",
+     "ServiceWorkerManager::GetServiceWorkerRegistrationInfo"]
+}
+```
+
 ## How a sub-resource request is mapped to a serviceworker.
 
 ## How a ServiceWorker is spawned.
